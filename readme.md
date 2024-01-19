@@ -36,4 +36,4 @@
 
 --------------
 
-git學習進度網址: https://www.youtube.com/watch?v=TjHslMeJ81k&list=PLz-S_Wd1N3svV8XnuDM6CPaTCtQkk5SY4&index=2
+refer : https://www.youtube.com/playlist?list=PLz-S_Wd1N3svV8XnuDM6CPaTCtQkk5SY4
