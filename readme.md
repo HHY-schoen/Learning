@@ -18,6 +18,11 @@
   > c : 進入編輯模式
   > esc : 退出編輯模式
   > ZZ ( 連押兩次大寫Z ) : 保存並退出
+- 把 git 過的檔案 unstage 回去 : git reset -- <file_name>
+  > 等於減號效果
+- 將檔案回到上次 commit 時的狀態 : git checkout -- <file_name>
+  > 等於 discard changes 的效果
+- 往前退一個 commit ( 會保留修改的部分 ) : git reset -- soft HEAD~1 ( 1 代表回到前一個 commit，以此類推 )
 
 ## Git & GitHub
 將 github repo 中的 remote 訊息輸入至 gitbash 中操作。
