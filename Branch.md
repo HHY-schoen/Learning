@@ -11,6 +11,8 @@
   > git branch -a : 查看所有 branch ( 包含 remote )
 - git switch <branch_name> :　切換分支
   > tips : 若分支工作未完成，可以先送出一個假的commit(ex. working...)，完成其他工作後再切換回來，壓 undo last commit 即可回到之前的狀態。
+- git branch -d <branch_name> : 刪除電腦上的 branch
+  > 若 branch 有推到 GitHub 上，GitHub 上的不會刪掉
 
 ## 如何把 branch 整合回 master ?
 1. 在 GitHub 上用 pull, request 做 merge ( 推薦方法! )
@@ -20,6 +22,10 @@
      > 解完衝突後繼續 rebase ( 有時候可能要解多次衝突 )
    - git push -f
      > 不建議在主分支做!! 會覆蓋掉整個紀錄!
+     > 
      > 強制將電腦上的紀錄 push 到 remote (因push在一般情況下，只允許你對一個repo做新的commit)
+   - pull & request
      
-2. 在電腦上 merge 完後再 push
+2. 在電腦上 merge 完成後，再 push 到 GitHub
+   - git merge <要整併回的分支> : 把目前分支整併到另一個分支 ( 做完後現在的分支會消失 ) 
+
