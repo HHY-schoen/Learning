@@ -30,9 +30,10 @@
 將 github repo 中的 remote 訊息輸入至 gitbash 中操作。
 - git push <remote_name> <branch_name>
 
-  (ex. git push origin master 即將master branch 推到 origin (github repo)。
+  (ex. git push origin master : 將 master branch 推到 origin (github repo)。
   > git push -u : 將預設的 remote 設為 origin ( 未來 push 若不指定 remote 都會 push 到 origin )。之後若要推到相同 repo ，只要輸入 git push 即可 !
-- git clone <link> : 完整下載遠端的 git repo，下在後不需要重新 git init。
+- git clone <link> : 完整下載遠端的 git repo，下載後不需要重新 git init。
+- 
 
 --------------
 
